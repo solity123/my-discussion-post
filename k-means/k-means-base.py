@@ -78,5 +78,5 @@ def kmeans_image_segmentation(image_path, k=3):
 
 
 # 使用示例
-segmented_image = kmeans_image_segmentation(r"C:\Users\solity\Desktop\photo\matteo-catanese-4KrQq8Z6Y5c-unsplash.jpg",
+segmented_image = kmeans_image_segmentation(".\matteo-catanese-4KrQq8Z6Y5c-unsplash.jpg",
                                             k=3)
