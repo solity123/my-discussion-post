@@ -107,7 +107,7 @@ def kmeans_color_segmentation(image_path, k=4, preprocessing=True, display=True)
 
 if __name__ == "__main__":
     try:
-        image_path = r"C:\Users\solity\Desktop\photo\matteo-catanese-4KrQq8Z6Y5c-unsplash.jpg"
+        image_path = ".\matteo-catanese-4KrQq8Z6Y5c-unsplash.jpg"
 
         # 执行分割(不自动保存)
         segmented = kmeans_color_segmentation(
